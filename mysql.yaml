@@ -1,6 +1,6 @@
 - name: mysql installation & configuration 
   become: yes
-  hosts: localhost
+  hosts: webservers
   vars_files:
     config.yaml
   tasks:
